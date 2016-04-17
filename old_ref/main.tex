@@ -1,0 +1,53 @@
+\documentclass[10pt, conference, letterpaper]{IEEEtran}
+\usepackage[]{algorithm2e}
+\usepackage{graphicx,balance,comment,times,amsmath,graphicx,subfigure,slashbox,url,multirow,algorithmic,color,amssymb,verbatim,float,chngcntr}
+\counterwithin{paragraph}{subsection} % makes paragraph depend on chapter
+
+\newcommand{\rednote}[1]{\color{red}{ \em #1 }\color{black}}
+\newcommand{\bluenote}[1]{\color{blue}{ \em #1 }\color{black}}
+%To hide notes: uncomment the following line
+%\renewcommand{\rednote}[1]{}
+%\renewcommand{\bluenote}[1]{}
+
+\def\unit#1#2{\hbox{#1$\,\textrm{#2}$}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newcommand{\weightLP}{\operatorname{WCD}}
+\newcommand{\LP}{\operatorname{CD}}
+\newcommand{\od}{\operatorname{OD}}
+%\newcommand{\roadSegDist}{\operatorname{roadSegDist}}
+\newcommand{\rawlat} {\operatorname{rlat}}
+\newcommand{\rawlon} {\operatorname{rlon}}
+\newcommand{\rawtime} {\operatorname{rtime}}
+\newcommand{\lat} {\operatorname{lat}}
+\newcommand{\lon} {\operatorname{lon}}
+\newcommand{\timev} {\operatorname{time}}
+\newcommand{\maxlat} {\max_{\lat}}
+\newcommand{\minlat} {\min_{\lat}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\summClus} {S}
+\newcommand{\setSummClus} {\mathbf{S}}
+\newcommand{\meanTraj} {\bar{t}}
+
+\begin{document}
+\input{header}
+\input{abstract}
+\input{intro}
+\input{formulation}
+\input{experimentation}
+\input{conc}
+
+%% ADd the below at right places
+\input{motivation}
+\input{related_work}
+
+\balance
+\bibliographystyle{abbrv}
+\bibliography{refs}
+\end{document}

@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{waze}
+Waze.
+\newblock \url{https://www.waze.com/}.
+
+\bibitem{tdrs}
+{3GPP TS 25.413}.
+\newblock {UTRAN Iu interface RANAP signalling}.
+\newblock \url{http://www.3gpp.org/DynaReport/25413.htm}.
+
+\bibitem{Chen2004}
+L.~Chen and R.~Ng.
+\newblock On the marriage of lp-norms and edit distance.
+\newblock In {\em Proceedings of the Thirtieth International Conference on Very
+  Large Data Bases - Volume 30}, VLDB '04, pages 792--803. VLDB Endowment,
+  2004.
+
+\bibitem{Chen2005}
+L.~Chen, M.~T. \"{O}zsu, and V.~Oria.
+\newblock Robust and fast similarity search for moving object trajectories.
+\newblock In {\em Proceedings of the 2005 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '05, pages 491--502, New York, NY, USA, 2005.
+  ACM.
+
+\bibitem{Do2014}
+T.~M.~T. Do and D.~Gatica-Perez.
+\newblock The places of our lives: Visiting patterns and automatic labeling
+  from longitudinal smartphone data.
+\newblock {\em Mobile Computing, IEEE Transactions on}, 13(3):638--648, March
+  2014.
+
+\bibitem{Kurtek2012}
+S.~Kurtek, A.~Srivastava, E.~Klassen, and Z.~Ding.
+\newblock Statistical modeling of curves using shapes and related features.
+\newblock {\em Journal of the American Statistical Association},
+  107(499):1152--1165, 2012.
+
+\bibitem{Lee2007}
+J.-G. Lee, J.~Han, and K.-Y. Whang.
+\newblock Trajectory clustering: A partition-and-group framework.
+\newblock In {\em Proceedings of the 2007 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '07, pages 593--604, New York, NY, USA, 2007.
+  ACM.
+
+\bibitem{Li2010}
+Z.~Li, B.~Ding, J.~Han, and R.~Kays.
+\newblock Swarm: Mining relaxed temporal moving object clusters.
+\newblock {\em Proc. VLDB Endow.}, 3(1-2):723--734, Sept. 2010.
+
+\bibitem{Richardson1995}
+A.~J. Richardson, E.~S. Ampt, and A.~H. Meyburg.
+\newblock {\em Survey Methods for Transport Planning}.
+\newblock Eucalyptus Press, 1995.
+
+\bibitem{Vlachos2002}
+M.~Vlachos, G.~Kollios, and D.~Gunopulos.
+\newblock Discovering similar multidimensional trajectories.
+\newblock In {\em Data Engineering, 2002. Proceedings. 18th International
+  Conference on}, pages 673--684, 2002.
+
+\bibitem{Yi1998}
+B.-K. Yi, H.~Jagadish, and C.~Faloutsos.
+\newblock Efficient retrieval of similar time sequences under time warping.
+\newblock In {\em Data Engineering, 1998. Proceedings., 14th International
+  Conference on}, pages 201--208, Feb 1998.
+
+\bibitem{Yuan2013}
+J.~Yuan, Y.~Zheng, X.~Xie, and G.~Sun.
+\newblock T-drive: Enhancing driving directions with taxi drivers'
+  intelligence.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  25(1):220--232, Jan 2013.
+
+\bibitem{Zheng2009}
+Y.~Zheng, Y.~Chen, X.~Xie, and W.-Y. Ma.
+\newblock Geolife2.0: A location-based social networking service.
+\newblock In {\em Mobile Data Management: Systems, Services and Middleware,
+  2009. MDM '09. Tenth International Conference on}, pages 357--358, May 2009.
+
+\bibitem{Zheng2008}
+Y.~Zheng, Q.~Li, Y.~Chen, X.~Xie, and W.-Y. Ma.
+\newblock Understanding mobility based on gps data.
+\newblock In {\em Proceedings of the 10th International Conference on
+  Ubiquitous Computing}, UbiComp '08, pages 312--321, New York, NY, USA, 2008.
+  ACM.
+
+\end{thebibliography}

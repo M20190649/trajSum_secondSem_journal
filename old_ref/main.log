@@ -1,0 +1,760 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.23)  3 SEP 2015 14:37
+entering extended mode
+**main.tex
+
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\main.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\IEEEtran.cls"
+Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 458.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count94
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip44
+\skiplinenumber=\skip45
+\skiprule=\skip46
+\skiphlne=\skip47
+\skiptext=\skip48
+\skiplength=\skip49
+\algomargin=\skip50
+\skipalgocfslide=\skip51
+\algowidth=\dimen125
+\inoutsize=\dimen126
+\inoutindent=\dimen127
+\interspacetitleruled=\dimen128
+\interspacealgoruled=\dimen129
+\interspacetitleboxruled=\dimen130
+\algocf@inoutbox=\box28
+\algocf@inputbox=\box29
+\AlCapSkip=\skip52
+\AlCapHSkip=\skip53
+\algoskipindent=\skip54
+\algocf@nlbox=\box30
+\algocf@hangingbox=\box31
+\algocf@untilbox=\box32
+\algocf@skipuntil=\skip55
+\algocf@capbox=\box33
+\algoheightruledefault=\skip56
+\algoheightrule=\skip57
+\algotitleheightruledefault=\skip58
+\algotitleheightrule=\skip59
+\c@algocfline=\count95
+\c@algocfproc=\count96
+\c@algocf=\count97
+\algocf@algoframe=\box34
+\algocf@algobox=\box35
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count98
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preprint\balance.sty"
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen133
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment')
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen134
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen135
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box36
+\strutbox@=\box37
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks17
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks18
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks19
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip63
+\subfigcapskip=\skip64
+\subfigcaptopadj=\dimen143
+\subfigbottomskip=\skip65
+\subfigcapmargin=\dimen144
+\subfiglabelskip=\skip66
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip67
+\subfig@bottom=\skip68
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\slashbox\slashbox.sty"
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box38
+\@slashboxb=\box39
+\@slashboxc=\box40
+\@slashboxwd=\count115
+\@slashboxht=\count116
+\@slashsepl=\dimen145
+\@slashsepr=\dimen146
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen147
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count117
+\c@ALC@line=\count118
+\c@ALC@rem=\count119
+\c@ALC@depth=\count120
+\ALC@tlm=\skip69
+\algorithmicindent=\skip70
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count121
+\float@exts=\toks23
+\float@box=\box41
+\@float@everytoks=\toks24
+\@floatcapt=\box42
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+\c@theorem=\count122
+
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+-- Lines per column: 56 (exact).
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen148
+\scratchbox=\box43
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen149
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks26
+)
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\header.tex"
+
+LaTeX Warning: No \author given.
+
+
+LaTeX Warning: No \author given.
+
+
+LaTeX Warning: No \author given.
+
+)
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\abstract.tex"
+Underfull \hbox (badness 2042) in paragraph at lines 1--3
+[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Mobility data of peo-ple is be-ing 
+in-creas-ingly
+ []
+
+)
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\intro.tex"
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+])
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\formulation.tex" <figs/overview.pdf, id=10, 1042.89626pt x 554.07pt>
+File: figs/overview.pdf Graphic file (type pdf)
+
+<use figs/overview.pdf>
+Package pdftex.def Info: figs/overview.pdf used on input line 4.
+(pdftex.def)             Requested size: 199.16928pt x 105.80702pt.
+
+
+LaTeX Warning: Citation `trapez' on page 2 undefined on input line 56.
+
+[2 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pape
+r/paper/figs/overview.pdf>]
+Overfull \hbox (19.72487pt too wide) detected at line 95
+\OML/cmm/m/it/10 SSW\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Clus[]\OT1/cmr/m/n/10 ) =
+ [] []
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 108.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Warning: Reference `sec:elbowNotUseful' on page 3 undefined on input line
+ 129.
+
+[3]
+
+LaTeX Warning: Citation `medianTraj' on page 4 undefined on input line 141.
+
+)
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\experimentation.tex" <figs/testing_sil.jpg, id=38, 562.1pt x 421.575pt>
+File: figs/testing_sil.jpg Graphic file (type jpg)
+
+<use figs/testing_sil.jpg>
+Package pdftex.def Info: figs/testing_sil.jpg used on input line 29.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+ <figs/avg.jpg, id=39, 562.1pt x 421.575pt>
+File: figs/avg.jpg Graphic file (type jpg)
+
+<use figs/avg.jpg>
+Package pdftex.def Info: figs/avg.jpg used on input line 41.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+ <figs/avgtop.jpg, id=40, 562.1pt x 421.575pt>
+File: figs/avgtop.jpg Graphic file (type jpg)
+
+<use figs/avgtop.jpg>
+Package pdftex.def Info: figs/avgtop.jpg used on input line 48.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+ <figs/time_log.jpg, id=41, 562.1pt x 421.575pt>
+File: figs/time_log.jpg Graphic file (type jpg)
+
+<use figs/time_log.jpg>
+Package pdftex.def Info: figs/time_log.jpg used on input line 57.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/testing_sil.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary
+/irlgit_new/trajsummary-paper/paper/figs/avg.jpg> <C:/Users/IBM_ADMIN/Documents
+/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/avgtop.jpg>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no ‰ in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+<figs/DTW_triangle_ineq.jpg, id=45, 811.53188pt x 291.33844pt>
+File: figs/DTW_triangle_ineq.jpg Graphic file (type jpg)
+
+<use figs/DTW_triangle_ineq.jpg>
+Package pdftex.def Info: figs/DTW_triangle_ineq.jpg used on input line 78.
+(pdftex.def)             Requested size: 243.46144pt x 87.40219pt.
+
+<figs/time_dtw_od.jpg, id=46, 562.1pt x 415.5525pt>
+File: figs/time_dtw_od.jpg Graphic file (type jpg)
+ <use figs/time_dtw_od.jpg>
+Package pdftex.def Info: figs/time_dtw_od.jpg used on input line 88.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_90_cdf.jpg, id=47, 562.1pt x 415.5525pt>
+File: figs/noise_90_cdf.jpg Graphic file (type jpg)
+
+<use figs/noise_90_cdf.jpg>
+Package pdftex.def Info: figs/noise_90_cdf.jpg used on input line 98.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_90_sil.jpg, id=48, 562.1pt x 415.5525pt>
+File: figs/noise_90_sil.jpg Graphic file (type jpg)
+
+<use figs/noise_90_sil.jpg>
+Package pdftex.def Info: figs/noise_90_sil.jpg used on input line 105.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_95_cdf.jpg, id=49, 562.1pt x 415.5525pt>
+File: figs/noise_95_cdf.jpg Graphic file (type jpg)
+
+<use figs/noise_95_cdf.jpg>
+Package pdftex.def Info: figs/noise_95_cdf.jpg used on input line 112.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_95_sil.jpg, id=50, 562.1pt x 415.5525pt>
+File: figs/noise_95_sil.jpg Graphic file (type jpg)
+
+<use figs/noise_95_sil.jpg>
+Package pdftex.def Info: figs/noise_95_sil.jpg used on input line 119.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_97_cdf.jpg, id=51, 562.1pt x 415.5525pt>
+File: figs/noise_97_cdf.jpg Graphic file (type jpg)
+
+<use figs/noise_97_cdf.jpg>
+Package pdftex.def Info: figs/noise_97_cdf.jpg used on input line 126.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+
+<figs/noise_97_sil.jpg, id=52, 562.1pt x 415.5525pt>
+File: figs/noise_97_sil.jpg Graphic file (type jpg)
+
+<use figs/noise_97_sil.jpg>
+Package pdftex.def Info: figs/noise_97_sil.jpg used on input line 133.
+(pdftex.def)             Requested size: 168.6313pt x 124.6667pt.
+ [5 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/DTW_triangle_ineq.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory s
+ummary/irlgit_new/trajsummary-paper/paper/figs/time_log.jpg> <C:/Users/IBM_ADMI
+N/Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/time_dtw
+_od.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummar
+y-paper/paper/figs/noise_90_cdf.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory s
+ummary/irlgit_new/trajsummary-paper/paper/figs/noise_90_sil.jpg>] <figs/TrajClu
+s_full.jpg, id=56, 451.6875pt x 369.63094pt>
+File: figs/TrajClus_full.jpg Graphic file (type jpg)
+
+<use figs/TrajClus_full.jpg>
+Package pdftex.def Info: figs/TrajClus_full.jpg used on input line 161.
+(pdftex.def)             Requested size: 135.5073pt x 110.89012pt.
+
+<figs/TrajClus_cluster.jpg, id=57, 419.31656pt x 380.92313pt>
+File: figs/TrajClus_cluster.jpg Graphic file (type jpg)
+
+<use figs/TrajClus_cluster.jpg>
+Package pdftex.def Info: figs/TrajClus_cluster.jpg used on input line 168.
+(pdftex.def)             Requested size: 125.79593pt x 114.2778pt.
+ [6 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/noise_95_cdf.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summar
+y/irlgit_new/trajsummary-paper/paper/figs/noise_95_sil.jpg> <C:/Users/IBM_ADMIN
+/Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/noise_97_
+cdf.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummar
+y-paper/paper/figs/noise_97_sil.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory s
+ummary/irlgit_new/trajsummary-paper/paper/figs/TrajClus_full.jpg> <C:/Users/IBM
+_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/Tra
+jClus_cluster.jpg>]
+<figs/direction.jpg, id=61, 621.07031pt x 354.57469pt>
+File: figs/direction.jpg Graphic file (type jpg)
+
+<use figs/direction.jpg>
+Package pdftex.def Info: figs/direction.jpg used on input line 179.
+(pdftex.def)             Requested size: 186.32253pt x 106.37321pt.
+ <figs/dtw_top.jpg, id=62, 562.1pt x 415.5525pt>
+File: figs/dtw_top.jpg Graphic file (type jpg)
+
+<use figs/dtw_top.jpg>
+Package pdftex.def Info: figs/dtw_top.jpg used on input line 205.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/dtw_top2.jpg, id=63, 562.1pt x 415.5525pt>
+File: figs/dtw_top2.jpg Graphic file (type jpg)
+
+<use figs/dtw_top2.jpg>
+Package pdftex.def Info: figs/dtw_top2.jpg used on input line 212.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/dtw_top3.jpg, id=64, 562.1pt x 415.5525pt>
+File: figs/dtw_top3.jpg Graphic file (type jpg)
+
+<use figs/dtw_top3.jpg>
+Package pdftex.def Info: figs/dtw_top3.jpg used on input line 219.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/od_top.jpg, id=65, 562.1pt x 415.5525pt>
+File: figs/od_top.jpg Graphic file (type jpg)
+
+<use figs/od_top.jpg>
+Package pdftex.def Info: figs/od_top.jpg used on input line 227.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/od_top2.jpg, id=66, 562.1pt x 415.5525pt>
+File: figs/od_top2.jpg Graphic file (type jpg)
+
+<use figs/od_top2.jpg>
+Package pdftex.def Info: figs/od_top2.jpg used on input line 234.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/od_top3.jpg, id=67, 562.1pt x 415.5525pt>
+File: figs/od_top3.jpg Graphic file (type jpg)
+
+<use figs/od_top3.jpg>
+Package pdftex.def Info: figs/od_top3.jpg used on input line 241.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/lp_top.jpg, id=68, 562.1pt x 421.575pt>
+File: figs/lp_top.jpg Graphic file (type jpg)
+
+<use figs/lp_top.jpg>
+Package pdftex.def Info: figs/lp_top.jpg used on input line 249.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ <figs/lp_top2.jpg, id=69, 562.1pt x 421.575pt>
+File: figs/lp_top2.jpg Graphic file (type jpg)
+
+<use figs/lp_top2.jpg>
+Package pdftex.def Info: figs/lp_top2.jpg used on input line 256.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ <figs/swarm_top.jpg, id=70, 562.1pt x 415.5525pt>
+File: figs/swarm_top.jpg Graphic file (type jpg)
+
+<use figs/swarm_top.jpg>
+Package pdftex.def Info: figs/swarm_top.jpg used on input line 265.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ <figs/swarm_top2.jpg, id=71, 562.1pt x 415.5525pt>
+File: figs/swarm_top2.jpg Graphic file (type jpg)
+
+<use figs/swarm_top2.jpg>
+Package pdftex.def Info: figs/swarm_top2.jpg used on input line 272.
+(pdftex.def)             Requested size: 224.83601pt x 166.21805pt.
+ [7 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/direction.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/i
+rlgit_new/trajsummary-paper/paper/figs/dtw_top.jpg> <C:/Users/IBM_ADMIN/Documen
+ts/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/dtw_top2.jpg> <C:
+/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-paper/pape
+r/figs/dtw_top3.jpg>] [8 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgi
+t_new/trajsummary-paper/paper/figs/od_top.jpg> <C:/Users/IBM_ADMIN/Documents/tr
+ajectory summary/irlgit_new/trajsummary-paper/paper/figs/od_top2.jpg> <C:/Users
+/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs
+/od_top3.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajs
+ummary-paper/paper/figs/lp_top.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory su
+mmary/irlgit_new/trajsummary-paper/paper/figs/lp_top2.jpg> <C:/Users/IBM_ADMIN/
+Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/swarm_top.
+jpg>]
+<figs/demo.jpg, id=80, 739.26187pt x 359.84438pt>
+File: figs/demo.jpg Graphic file (type jpg)
+ <use figs/demo.jpg>
+Package pdftex.def Info: figs/demo.jpg used on input line 289.
+(pdftex.def)             Requested size: 443.56053pt x 215.90828pt.
+
+<figs/snapshot_swarm.jpg, id=81, 251.43938pt x 289.83281pt>
+File: figs/snapshot_swarm.jpg Graphic file (type jpg)
+
+<use figs/snapshot_swarm.jpg>
+Package pdftex.def Info: figs/snapshot_swarm.jpg used on input line 301.
+(pdftex.def)             Requested size: 100.57396pt x 115.93106pt.
+
+<figs/snapshot_od.jpg, id=82, 209.28188pt x 237.13594pt>
+File: figs/snapshot_od.jpg Graphic file (type jpg)
+
+<use figs/snapshot_od.jpg>
+Package pdftex.def Info: figs/snapshot_od.jpg used on input line 309.
+(pdftex.def)             Requested size: 83.71126pt x 94.85268pt.
+
+<figs/snapshot_dtw.jpg, id=83, 240.14719pt x 273.27094pt>
+File: figs/snapshot_dtw.jpg Graphic file (type jpg)
+
+<use figs/snapshot_dtw.jpg>
+Package pdftex.def Info: figs/snapshot_dtw.jpg used on input line 316.
+(pdftex.def)             Requested size: 96.05716pt x 109.30643pt.
+)
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\conc.tex")
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\motivation.tex"
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [9 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/swarm_top2.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/
+irlgit_new/trajsummary-paper/paper/figs/snapshot_swarm.jpg> <C:/Users/IBM_ADMIN
+/Documents/trajectory summary/irlgit_new/trajsummary-paper/paper/figs/snapshot_
+od.jpg> <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary
+-paper/paper/figs/snapshot_dtw.jpg>])
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\related_work.tex")
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\main.bbl"
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[10 <C:/Users/IBM_ADMIN/Documents/trajectory summary/irlgit_new/trajsummary-pap
+er/paper/figs/demo.jpg>])
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+
+Overfull \vbox (1.16797pt too high) has occurred while \output is active []
+
+
+[11]
+("C:\Users\IBM_ADMIN\Documents\trajectory summary\irlgit_new\trajsummary-paper\
+paper\main.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5103 strings out of 493921
+ 76634 string characters out of 3144864
+ 158439 words of memory out of 3000000
+ 8265 multiletter control sequences out of 15000+200000
+ 42758 words of font info for 92 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 30i,16n,28p,1139b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8
+a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (11 pages, 1417233 bytes).
+PDF statistics:
+ 156 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+
