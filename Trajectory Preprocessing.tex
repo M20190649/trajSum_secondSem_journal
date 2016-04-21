@@ -1,0 +1,11 @@
+\section{Trajectory Preprocessing}
+
+\paragraph{Pre-processing}
+\label{sec:preprocess}
+Pre-processing stage and the later steps are currently implemented as Batch Analytics. Batch Analytics is executed periodically, which aggregates the records in the past period, and creates data that can be used by the analytics.
+
+In the pre-processing stage, we perform three main tasks: User Grouping, De-noising and Trajectory Segmentation. User Grouping groups location samples of all users into a Hive table in Parquet format. Parquet format is adopted since it provides columnar compression which is useful for our data-sets. This step is necessary since the data is flowing into the system from multiple users at the same time, and our analytics input is the location traces (trajectories) of individual users.
+
+De-noising module filters the outlier GPS traces. We use existing outlier detection algorithms to prune the raw locations~\cite{Yuan2013,Zheng2009}. Such techniques estimate the speed between the consecutive sample points of a user, and prune the points if the speed is greater than a certain threshold (\unit{300}{kmph} in our case).
+
+Trajectory Segmentation identifies the meaningful trips of a user from raw location traces. It utilizes well-known stay-point estimation approaches~\cite{trajcut3}, and stores the \textit{User Trajectories} table. Each trip is stored as an ordered set of 3-tuples $\langle \operatorname{latitude},\operatorname{longitude}, \operatorname{time} \rangle$.

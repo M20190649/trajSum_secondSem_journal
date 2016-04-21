@@ -1,0 +1,911 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@BOOK{aarne1987types,
+  title = {{The types of the folktale: A classification and bibliography}},
+  publisher = {{Suomalainen tiedeakatemia Helsinki}},
+  year = {1987},
+  author = {{Aarne, Antti and Thompson, Stith}},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{ali2009urdu,
+  author = {{Ali, Abbas Raza and Ijaz, Maliha}},
+  title = {{Urdu text classification}},
+  booktitle = {{Proceedings of the 7th International Conference on Frontiers of
+	Information Technology}},
+  year = {2009},
+  pages = {21},
+  organization = {ACM},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{alm2005emotions,
+  author = {Alm, Cecilia Ovesdotter and Roth, Dan and Sproat, Richard},
+  title = {{Emotions from text: machine learning for text-based emotion prediction}},
+  booktitle = {{Proceedings of the conference on Human Language Technology and Empirical
+	Methods in Natural Language Processing}},
+  year = {{2005}},
+  pages = {{579--586}},
+  organization = {{Association for Computational Linguistics}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@INPROCEEDINGS{alm2005perceptions,
+  author = {Alm, Cecilia Ovesdotter and Sproat, Richard},
+  title = {{Perceptions of emotions in expressive storytelling}},
+  booktitle = {{INTERSPEECH}},
+  year = {{2005}},
+  pages = {{533--536}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@BOOK{alm2008affect,
+  title = {Affect in text and speech},
+  publisher = {ProQuest},
+  year = {2008},
+  author = {Alm, Ebba Cecilia Ovesdotter},
+  owner = {hari},
+  timestamp = {2015.03.27}
+}
+
+@ARTICLE{baoli2004adaptive,
+  author = {Baoli, Li and Qin, Lu and Shiwen, Yu},
+  title = {An adaptive k-nearest neighbor text categorization strategy},
+  journal = {ACM Transactions on Asian Language Information Processing (TALIP)},
+  year = {2004},
+  volume = {3},
+  pages = {215--226},
+  number = {4},
+  owner = {hari},
+  timestamp = {2015.06.07}
+}
+
+@INPROCEEDINGS{bharti2007introduction,
+  author = {Bharati, Akshar and Mannem, Prashanth R},
+  title = {Introduction to shallow parsing contest on south asian languages},
+  booktitle = {Proceedings of the IJCAI and the Workshop On Shallow Parsing for
+	South Asian Languages (SPSAL)},
+  year = {2007},
+  organization = {Citeseer},
+  owner = {hari},
+  timestamp = {2015.06.08}
+}
+
+@ARTICLE{blei2003lda,
+  author = {Blei, David M and Ng, Andrew Y and Jordan, Michael I},
+  title = {{Latent dirichlet allocation}},
+  journal = {Journal of machine Learning Research},
+  year = {2003},
+  volume = {3},
+  pages = {993--1022},
+  owner = {hari},
+  timestamp = {2015.06.05}
+}
+
+@INPROCEEDINGS{ceran2012semantic,
+  author = {Ceran, Betul and Karad, Ravi and Mandvekar, Ajay and Corman, Steven
+	R and Davulcu, Hasan},
+  title = {A semantic triplet based story classifier},
+  booktitle = {International Conference on Advances in Social Networks Analysis
+	and Mining (ASONAM)},
+  year = {2012},
+  owner = {hari},
+  timestamp = {2014.10.17}
+}
+
+@MISC{cfilt,
+  author = {CFILT},
+  title = {Center For Indian Language Technology},
+  howpublished = {\url{http://www.cfilt.iitb.ac.in/}},
+  year = {2002},
+  note = {Retrieved June 8, 2015},
+  owner = {hari},
+  timestamp = {2015.06.08}
+}
+
+@ARTICLE{libsvm,
+  author = {Chang, Chih-Chung and Lin, Chih-Jen},
+  title = {{{LIBSVM}: A library for support vector machines}},
+  journal = {{ACM Transactions on Intelligent Systems and Technology}},
+  year = {2011},
+  volume = {{2}},
+  pages = {{27:1--27:27}},
+  note = {{Software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}}},
+  owner = {hari},
+  timestamp = {2015.02.01}
+}
+
+@ARTICLE{KNN,
+  author = {Cover, Thomas and Hart, Peter},
+  title = {Nearest neighbor pattern classification},
+  journal = {IEEE Transactions on Information Theory},
+  year = {1967},
+  volume = {13},
+  pages = {21--27},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{dai2007transferring,
+  author = {Dai, Wenyuan and Xue, Gui-Rong and Yang, Qiang and Yu, Yong},
+  title = {Transferring naive bayes classifiers for text classification},
+  booktitle = {PROCEEDINGS OF THE NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE},
+  year = {2007},
+  volume = {22},
+  number = {1},
+  pages = {540},
+  organization = {{Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999}},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@ARTICLE{dasarathy1991nearest,
+  author = {{Dasarathy, Belur V}},
+  title = {{Nearest neighbor ($\{$NN$\}$) norms:$\{$NN$\}$ pattern classification
+	techniques}},
+  year = {1991},
+  owner = {hari},
+  timestamp = {2014.10.22}
+}
+
+@INCOLLECTION{deepamala2014text,
+  author = {Deepamala, N and Kumar, P Ramakanth},
+  title = {{Text Classification of Kannada webpages using various pre-processing
+	agents}},
+  booktitle = {{Recent Advances in Intelligent Informatics}},
+  publisher = {Springer},
+  year = {2014},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@ARTICLE{deerwester1990indexing,
+  author = {Deerwester, Scott C. and Dumais, Susan T and Landauer, Thomas K.
+	and Furnas, George W. and Harshman, Richard A.},
+  title = {{Indexing by latent semantic analysis}},
+  journal = {Journal of the American Society of Information Science},
+  year = {1990},
+  volume = {41},
+  pages = {391--407},
+  number = {6},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@ARTICLE{dietterich1998approximate,
+  author = {Dietterich, Thomas G},
+  title = {Approximate statistical tests for comparing supervised classification
+	learning algorithms},
+  journal = {Neural Computation},
+  year = {1998},
+  volume = {10},
+  pages = {1895--1923},
+  number = {7},
+  owner = {hari},
+  timestamp = {2015.07.08}
+}
+
+@INPROCEEDINGS{dumais1998inductive,
+  author = {Dumais, Susan and Platt, John and Heckerman, David and Sahami, Mehran},
+  title = {Inductive learning algorithms and representations for text categorization},
+  booktitle = {Proceedings of the Seventh International Conference on Information
+	and Knowledge Management},
+  year = {1998},
+  pages = {148--155},
+  organization = {ACM},
+  owner = {hari},
+  timestamp = {2015.07.06}
+}
+
+@ARTICLE{ekman1993facial,
+  author = {Ekman, Paul},
+  title = {Facial expression and emotion},
+  journal = {American psychologist},
+  year = {1993},
+  volume = {48},
+  pages = {384},
+  number = {{4}},
+  owner = {hari},
+  timestamp = {2015.03.26}
+}
+
+@ARTICLE{el2007arabic,
+  author = {{El-Halees, A}},
+  title = {{Arabic text classification using maximum entropy}},
+  journal = {{The Islamic University Journal}},
+  year = {2007},
+  volume = {15},
+  pages = {{157--167}},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@ARTICLE{fleiss1971measuring,
+  author = {Fleiss, Joseph L},
+  title = {{Measuring nominal scale agreement among many raters}},
+  journal = {Psychological Bulletin},
+  year = {1971},
+  volume = {76},
+  pages = {378},
+  number = {5},
+  owner = {hari},
+  timestamp = {2014.10.21}
+}
+
+@ARTICLE{forman2003extensive,
+  author = {Forman, George},
+  title = {An extensive empirical study of feature selection metrics for text
+	classification},
+  journal = {The Journal of Machine Learning Research},
+  year = {2003},
+  volume = {3},
+  pages = {1289--1305},
+  month = {March},
+  owner = {hari},
+  timestamp = {2015.06.28}
+}
+
+@MISC{kappa,
+  author = {Geertzen, J},
+  title = {{ Inter-Rater Agreement with multiple raters and variables}},
+  howpublished = {{\url{https://mlnl.net/jg/software/ira/}}},
+  year = {{2012}},
+  note = {{Retrieved March 24, 2015}},
+  owner = {hari},
+  timestamp = {2015.03.24}
+}
+
+@INPROCEEDINGS{greene2012predicting,
+  author = {{Greene, Erica and Mishra, Taniya and Haffner, Patrick and Conkie,
+	Alistair}},
+  title = {{Predicting Character-Appropriate Voices for a TTS-based Storyteller
+	System.}},
+  booktitle = {{INTERSPEECH}},
+  year = {2012},
+  owner = {hari},
+  timestamp = {2014.10.29}
+}
+
+@INCOLLECTION{guerini2014credible,
+  author = {Guerini, Marco and Strapparava, Carlo},
+  title = {{Credible or incredible? Dissecting urban legends}},
+  booktitle = {Computational Linguistics and Intelligent Text Processing},
+  publisher = {Springer},
+  year = {2014},
+  owner = {hari},
+  timestamp = {2015.06.05}
+}
+
+@ARTICLE{weka,
+  author = {Hall, Mark and Frank, Eibe and Holmes, Geoffrey and Pfahringer, Bernhard
+	and Reutemann, Peter and Witten, Ian H.},
+  title = {{The WEKA Data Mining Software: An Update}},
+  journal = {{SIGKDD Explor. Newsl.}},
+  year = {2009},
+  volume = {11},
+  pages = {10--18},
+  number = {1},
+  month = nov,
+  acmid = {1656278},
+  address = {New York, NY, USA},
+  doi = {10.1145/1656274.1656278},
+  issn = {1931-0145},
+  issue_date = {June 2009},
+  numpages = {9},
+  owner = {hari},
+  publisher = {ACM},
+  timestamp = {2015.02.01},
+  url = {http://doi.acm.org/10.1145/1656274.1656278}
+}
+
+@ARTICLE{harman2010introduction,
+  author = {Harman, Donna and Kando, Noriko and Majumder, Prasenjit and Mitra,
+	Mandar and Peters, Carol},
+  title = {{Introduction to the special Issue on Indian language information
+	retrieval}},
+  journal = {ACM Transactions on Asian Language Information Processing (TALIP)},
+  year = {2010},
+  volume = {9},
+  pages = {9},
+  number = {3},
+  owner = {hari},
+  timestamp = {2015.06.07}
+}
+
+@INPROCEEDINGS{czechpos,
+  author = {Hrala, Michal and Kr{\'a}l, Pavel},
+  title = {Evaluation of the document classification approaches},
+  booktitle = {Proceedings of the 8th International Conference on Computer Recognition
+	Systems (CORES)},
+  year = {2013},
+  pages = {877--885},
+  organization = {Springer},
+  owner = {hari},
+  timestamp = {2015.02.01}
+}
+
+@ARTICLE{iosif2014speaker,
+  author = {Iosif, Elias and Mishra, Taniya},
+  title = {{From speaker identification to affective analysis: A multi-step
+	system for analyzing children stories}},
+  journal = {European Chapter of the ACL (EACL)},
+  year = {2014},
+  pages = {40--49},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{jayashree2011analysis,
+  author = {Jayashree, R and Srikanta, Murthy K},
+  title = {{An analysis of sentence level text classification for the Kannada
+	language}},
+  booktitle = {International Conference of Soft Computing and Pattern Recognition
+	(SoCPaR)},
+  year = {2011},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@ARTICLE{jiang2010text,
+  author = {Jiang, Chuntao and Coenen, Frans and Sanderson, Robert and Zito,
+	Michele},
+  title = {Text classification using graph mining-based feature extraction},
+  journal = {Knowledge-Based Systems},
+  year = {2010},
+  volume = {23},
+  pages = {302--308},
+  number = {4},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@BOOK{joachims1998text,
+  title = {{Text categorization with support vector machines: Learning with
+	many relevant features}},
+  publisher = {Springer},
+  year = {1998},
+  author = {Joachims, Thorsten},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@ARTICLE{kanimozhi2012tamil,
+  author = {S Kanimozhi},
+  title = {{Web based classification of Tamil documents using ABPA}},
+  journal = {{International Journal of Scientific \& Engineering Research}},
+  year = {2012},
+  volume = {3},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{kim2005dimension,
+  author = {Kim, Hyunsoo and Howland, Peg and Park, Haesun},
+  title = {Dimension reduction in text classification with support vector machines},
+  booktitle = {Journal of Machine Learning Research},
+  year = {2005},
+  pages = {37--53},
+  owner = {hari},
+  timestamp = {2015.06.05}
+}
+
+@INPROCEEDINGS{ko2002automatic,
+  author = {Ko, Youngjoong and Park, Jinwoo and Seo, Jungyun},
+  title = {Automatic text categorization using the importance of sentences},
+  booktitle = {Proceedings of the 19th International Conference on Computational
+	Linguistics},
+  year = {2002},
+  volume = {1},
+  pages = {1--7},
+  organization = {ACL},
+  owner = {hari},
+  timestamp = {2015.06.23}
+}
+
+@INCOLLECTION{czechne,
+  author = {Kr{\'a}l, Pavel},
+  title = {{Named entities as new features for Czech document classification}},
+  booktitle = {Computational Linguistics and Intelligent Text Processing},
+  publisher = {Springer},
+  year = {2014},
+  pages = {{417--427}},
+  owner = {hari},
+  timestamp = {2015.01.31}
+}
+
+@ARTICLE{kuralenok2000automatic,
+  author = {Kuralenok, I and Nekrest'yanov, I},
+  title = {Automatic document classification based on latent semantic analysis},
+  journal = {Programming and Computer Software},
+  year = {2000},
+  volume = {26},
+  pages = {199--206},
+  number = {4},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@ARTICLE{li2008adapting,
+  author = {Li, Yaoyong and Bontcheva, Kalina},
+  title = {Adapting support vector machines for f-term-based classification
+	of patents},
+  journal = {ACM Transactions on Asian Language Information Processing (TALIP)},
+  year = {2008},
+  volume = {7},
+  pages = {7},
+  number = {2},
+  owner = {hari},
+  timestamp = {2015.06.07}
+}
+
+@INPROCEEDINGS{liu2004improving,
+  author = {Liu, Tao and Chen, Zheng and Zhang, Benyu and Ma, Wei-ying and Wu,
+	Gongyi},
+  title = {{Improving text classification using local latent semantic indexing}},
+  booktitle = {Fourth IEEE International Conference on Data Mining (ICDM)},
+  year = {2004},
+  pages = {162--169},
+  month = {Nov},
+  organization = {IEEE},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@INPROCEEDINGS{lobo2010fairy,
+  author = {Lobo, Paula Vaz and De Matos, David Martins},
+  title = {{Fairy tale corpus organization using latent semantic mapping and
+	an item-to-item top-n recommendation algorithm}},
+  booktitle = {Language Resources and Evaluation Conference (LREC)},
+  year = {2010},
+  owner = {hari},
+  timestamp = {2015.06.05}
+}
+
+@MISC{ltrc,
+  author = {LTRC},
+  title = {Language Technologies Research Center, IIIT Hyderabad},
+  howpublished = {\url{http://ltrc.iiit.ac.in/downloads/}},
+  year = {2006},
+  note = {Retrieved June 8, 2015},
+  owner = {hari},
+  timestamp = {2015.06.08}
+}
+
+@ARTICLE{lu2010chinese,
+  author = {{Lu, Shing-Hwa and Chiang, Ding-An and Keh, Huan-Chao and Huang,
+	Hui-Hua}},
+  title = {{Chinese text classification by the Na{\"\i}ve Bayes Classifier and
+	the associative classifier with multiple confidence threshold values}},
+  journal = {{Knowledge-based systems}},
+  year = {2010},
+  volume = {23},
+  pages = {{598--604}},
+  number = {6},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@BOOK{manning2008introduction,
+  title = {Introduction to information retrieval},
+  publisher = {Cambridge university press Cambridge},
+  year = {2008},
+  author = {Manning, Christopher D and Raghavan, Prabhakar and Sch{\"u}tze, Hinrich},
+  volume = {1},
+  owner = {hari},
+  timestamp = {2014.10.27}
+}
+
+@INPROCEEDINGS{mohanty2006semantic,
+  author = {Mohanty, S and Santi, PK and Mishra, Ranjeeta and Mohapatra, RN and
+	Swain, Sabyasachi},
+  title = {{Semantic Based Text Classification Using WordNets: Indian Language
+	Perspective}},
+  booktitle = {{Proceedings of the 3th International Global WordNejuh t Conf., South
+	Jeju Island, Korea}},
+  year = {2006},
+  pages = {321--324},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@ARTICLE{moldovan2005latent,
+  author = {Moldovan, Andreea and Bot, Radu Ioan and Wanka, Gert},
+  title = {Latent semantic indexing for patent documents},
+  journal = {International Journal of Applied Mathematics and Computer Science},
+  year = {2005},
+  volume = {15},
+  pages = {551},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@ARTICLE{murthy2003automatic,
+  author = {Murthy, Kavi Narayana},
+  title = {{Automatic categorization of Telugu news articles}},
+  journal = {Department of Computer and Information Sciences},
+  year = {2003},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@ARTICLE{murty2008epoch,
+  author = {Murty, K Sri Rama and Yegnanarayana, B},
+  title = {{Epoch extraction from speech signals}},
+  journal = {{Audio, Speech, and Language Processing, IEEE Transactions on}},
+  year = {{2008}},
+  volume = {{16}},
+  pages = {{1602--1613}},
+  number = {{8}},
+  owner = {hari},
+  timestamp = {2015.03.26}
+}
+
+@ARTICLE{natsiopoulou2006narrating,
+  author = {{Natsiopoulou, Triantafillia and Souliotis, Mimis and Kyridis, Argyris
+	G}},
+  title = {{Narrating and reading folktales and picture books: storytelling
+	techniques and approaches with preschool children}},
+  journal = {{Early Childhood Research and Practice}},
+  year = {2006},
+  volume = {8},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{nidhi2012domain,
+  author = {Nidhi and Gupta, Vishal},
+  title = {{Domain based classification of Punjabi text documents using ontology
+	and hybrid based approach}},
+  booktitle = {{Proceedings of the 3rd Workshop on South and Southeast Asian Natural
+	Language Processing, COLING}},
+  year = {{2012}},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{patil2013syllable,
+  author = {Patil, Hemant A and Patel, Tanvina B and Shah, Nirmesh J and Sailor,
+	Hardik B and Krishnan, Raghava and Kasthuri, GR and Nagarajan, T
+	and Christina, Lilly and Kumar, Naresh and Raghavendra, Veera and
+	others},
+  title = {{A syllable-based framework for unit selection synthesis in 13 Indian
+	languages}},
+  booktitle = {Oriental COCOSDA held jointly with Conference on Asian Spoken Language
+	Research and Evaluation (O-COCOSDA/CASLRE)},
+  year = {2013},
+  pages = {{1--8}},
+  organization = {{IEEE}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@ARTICLE{game2014comparison,
+  author = {Patil, Meera and Game, Pravin},
+  title = {{Comparison of Marathi Text Classifiers}},
+  journal = {Association of Computer Electronics and Electrical Engineers},
+  year = {2014},
+  volume = {4},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@ARTICLE{pawar2012comparitive,
+  author = {Pawar, Pratiksha Y and Gawande, SH},
+  title = {A comparative study on different types of approaches to text categorization},
+  journal = {International Journal of Machine Learning and Computing},
+  year = {2012},
+  volume = {2},
+  pages = {423--426},
+  number = {4},
+  owner = {hari},
+  timestamp = {2015.06.23}
+}
+
+@ARTICLE{pitrelli2006ibm,
+  author = {Pitrelli, John F and Bakis, Raimo and Eide, Ellen M and Fernandez,
+	Raul and Hamza, Wael and Picheny, Michael and others},
+  title = {The IBM expressive text-to-speech synthesis system for American English},
+  journal = {IEEE Transactions on Audio, Speech, and Language Processing},
+  year = {2006},
+  volume = {14},
+  pages = {1099--1108},
+  number = {4},
+  owner = {hari},
+  timestamp = {2015.07.26}
+}
+
+@ARTICLE{qi2009web,
+  author = {Qi, Xiaoguang and Davison, Brian D},
+  title = {Web page classification: Features and algorithms},
+  journal = {ACM Computing Surveys (CSUR)},
+  year = {2009},
+  volume = {41},
+  pages = {12},
+  number = {2},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@MANUAL{R,
+  title = {{R: A Language and Environment for Statistical Computing}},
+  author = {{R Development Core Team}},
+  organization = {{R Foundation for Statistical Computing}},
+  address = {{Vienna, Austria}},
+  year = {2008},
+  note = {{{ISBN} 3-900051-07-0}},
+  owner = {hari},
+  timestamp = {2014.10.19},
+  url = {http://www.R-project.org}
+}
+
+@INPROCEEDINGS{raghuveer2007text,
+  author = {Raghuveer, K and Murthy, Kavi Narayana},
+  title = {{Text categorization in Indian languages using machine learning approaches}},
+  booktitle = {Indian International Conference on Artificial Intelligence},
+  year = {2007},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@ARTICLE{rajan2009automatic,
+  author = {Rajan, K and Ramalingam, Vennila and Ganesan, M and Palanivel, S
+	and Palaniappan, B},
+  title = {{Automatic classification of Tamil documents using vector space model
+	and artificial neural network}},
+  journal = {Expert Systems with Applications},
+  year = {2009},
+  volume = {36},
+  pages = {10914--10918},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{reddy2015telugu,
+  author = {Reddy, M Gurunath and Harikrishna, DM and Rao, K Sreenivasa and Manjunath,
+	KE},
+  title = {Telugu emotional story speech synthesis using SABLE markup language},
+  booktitle = {{International Conference on Signal Processing And Communication
+	Engineering Systems (SPACES)}},
+  year = {{2015}},
+  pages = {{331--335}},
+  organization = {{IEEE}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@ARTICLE{robertson2004understanding,
+  author = {Robertson, Stephen},
+  title = {Understanding inverse document frequency: on theoretical arguments
+	for IDF},
+  journal = {Journal of documentation},
+  year = {2004},
+  volume = {60},
+  pages = {503--520},
+  number = {5},
+  owner = {hari},
+  timestamp = {2014.10.22}
+}
+
+@ARTICLE{saha2008hybrid,
+  author = {{Saha, Sujan Kumar and Chatterji, Sanjay and Dandapat, Sandipan and
+	Sarkar, Sudeshna and Mitra, Pabitra}},
+  title = {{A hybrid approach for named entity recognition in indian languages}},
+  journal = {{NER for South and South East Asian Languages}},
+  year = {2008},
+  pages = {17},
+  owner = {hari},
+  timestamp = {2014.10.19}
+}
+
+@INPROCEEDINGS{sainath2010sparse,
+  author = {Sainath, Tara N and Maskey, Sameer and Kanevsky, Dimitri and Ramabhadran,
+	Bhuvana and Nahamoo, David and Hirschberg, Julia},
+  title = {{Sparse representations for text categorization}},
+  booktitle = {INTERSPEECH},
+  year = {2010},
+  pages = {2266--2269},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@INPROCEEDINGS{6897219,
+  author = {Sarkar, P. and Haque, A. and Dutta, A.K. and Reddy, G.M. and Harikrishna,
+	M.D. and Dhara, P. and Verma, R. and Narendra, P.N. and Sunil, B.K.S.
+	and Yadav, J. and Rao, K.S.},
+  title = {Designing prosody rule-set for converting neutral TTS speech to storytelling
+	style speech for Indian languages: Bengali, Hindi and Telugu},
+  booktitle = {Contemporary Computing (IC3), 2014 Seventh International Conference
+	on},
+  year = {2014},
+  pages = {473-477},
+  month = {Aug},
+  doi = {10.1109/IC3.2014.6897219},
+  keywords = {natural language processing;speech synthesis;Bengali;Hindi;Indian
+	languages;Telugu;duration patterns;intensity patterns;neutral TTS
+	system;pause patterns;pitch contour;prosody rule-set;storytelling
+	style speech;text-to-speech system;Emotion recognition;Information
+	technology;Semantics;Speech;Speech recognition;Speech synthesis;Expressive
+	speech synthesis;Neutral TTS;Prosody rule-set;Story specific prosody
+	generation;Storytelling style;emotion-salient words;story-specific
+	emotion detection;story-specific prosody incorporation}
+}
+
+@INPROCEEDINGS{sarkar2014designing,
+  author = {Sarkar, Parakrant and Haque, Arijul and Dutta, Arup Kumar and Reddy,
+	M and Dhara, Prasenjit and Verma, Rashmi and Yadav, Jainath and Rao,
+	K Sreenivasa and others},
+  title = {Designing prosody rule-set for converting neutral TTS speech to storytelling
+	style speech for Indian languages: Bengali, Hindi and Telugu},
+  booktitle = {Seventh International Conference on Contemporary Computing (IC3)},
+  year = {{2014}},
+  pages = {{473--477}},
+  organization = {{IEEE}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@INPROCEEDINGS{sarmah2012novel,
+  author = {{Sarmah, Jumi and Saharia, Navanath and Sarma, Shikhar Kr}},
+  title = {{A Novel Approach for Document Classification using Assamese WordNet}},
+  booktitle = {{GWC 2012 6th International Global Wordnet Conference}},
+  year = {2012},
+  pages = {324},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{sable,
+  author = {Sproat, Richard and Hunt, Andrew and Ostendorf, Mari and Taylor,
+	Paul and Black, Alan and Lenzo, Kevin and Edgington, Mike},
+  title = {SABLE: A standard for TTS markup},
+  booktitle = {The Third ESCA/COCOSDA Workshop (ETRW) on Speech Synthesis},
+  year = {1998},
+  owner = {hari},
+  timestamp = {2015.03.27}
+}
+
+@INPROCEEDINGS{sriram2010short,
+  author = {{Sriram, Bharath and Fuhry, Dave and Demir, Engin and Ferhatosmanoglu,
+	Hakan and Demirbas, Murat}},
+  title = {{Short text classification in twitter to improve information filtering}},
+  booktitle = {{Proceedings of the 33rd international ACM SIGIR conference on Research
+	and development in information retrieval}},
+  year = {2010},
+  pages = {{841--842}},
+  organization = {ACM},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{sugimoto2004method,
+  author = {Sugimoto, Futoshi and Yazu, K and Murakami, Makoto and Yoneyama,
+	Masahide},
+  title = {{A method to classify emotional expressions of text and synthesize
+	speech}},
+  booktitle = {{First International Symposium on Control, Communications and Signal
+	Processing}},
+  year = {{2004}},
+  pages = {{611--614}},
+  owner = {hari},
+  timestamp = {2015.03.23}
+}
+
+@INPROCEEDINGS{tan2005novel,
+  author = {Tan, Songbo and Cheng, Xueqi and Ghanem, Moustafa M and Wang, Bin
+	and Xu, Hongbo},
+  title = {A novel refinement approach for text categorization},
+  booktitle = {Proceedings of the 14th ACM International Conference on Information
+	and Knowledge Management},
+  year = {2005},
+  pages = {469--476},
+  organization = {ACM},
+  owner = {hari},
+  timestamp = {2015.06.23}
+}
+
+@INPROCEEDINGS{thakur2014lexicon,
+  author = {Thakur, SK and Singh, VK},
+  title = {A lexicon pool augmented Naive Bayes Classifier for Nepali Text},
+  booktitle = {Seventh International Conference on Contemporary Computing (IC3)},
+  year = {2014},
+  pages = {542--546},
+  organization = {IEEE},
+  owner = {hari},
+  timestamp = {2014.10.26}
+}
+
+@ARTICLE{thati2013synthesis,
+  author = {Thati, Sathya Adithya and Kumar, Sudheer and Yegnanarayana, B},
+  title = {Synthesis of laughter by modifying excitation characteristics},
+  journal = {The Journal of the Acoustical Society of America},
+  year = {2013},
+  volume = {133},
+  pages = {3072--3082},
+  number = {5},
+  owner = {hari},
+  publisher = {Acoustical Society of America},
+  timestamp = {2015.03.27}
+}
+
+@INCOLLECTION{tsukada2001automatic,
+  author = {{Tsukada, Makoto and Washio, Takashi and Motoda, Hiroshi}},
+  title = {{Automatic web-page classification by using machine learning methods}},
+  booktitle = {{Web Intelligence: Research and Development}},
+  publisher = {{Springer}},
+  year = {2001},
+  pages = {303--313},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{turney2002thumbs,
+  author = {Turney, Peter D},
+  title = {{Thumbs up or thumbs down?: Semantic orientation applied to unsupervised
+	classification of reviews}},
+  booktitle = {Proceedings of the 40th Annual Meeting on Association for Computational
+	Linguistics},
+  year = {2002},
+  pages = {417--424},
+  organization = {ACL},
+  owner = {hari},
+  timestamp = {2015.06.04}
+}
+
+@INPROCEEDINGS{turk2008comparison,
+  author = {T{\"u}rk, Oytun and Schr{\"o}der, Marc},
+  title = {A comparison of voice conversion methods for transforming voice quality
+	in emotional speech synthesis},
+  booktitle = {INTERSPEECH},
+  year = {2008},
+  pages = {2282--2285},
+  owner = {hari},
+  timestamp = {2015.07.26}
+}
+
+@INPROCEEDINGS{yang1999re,
+  author = {Yang, Yiming and Liu, Xin},
+  title = {A re-examination of text categorization methods},
+  booktitle = {Proceedings of the 22nd Annual International ACM SIGIR Conference
+	on Research and Development in Information Retrieval},
+  year = {1999},
+  pages = {{42--49}},
+  organization = {ACM},
+  owner = {hari},
+  timestamp = {2014.10.20}
+}
+
+@INPROCEEDINGS{zhang2003identifying,
+  author = {Zhang, Jason Y and Black, Alan W and Sproat, Richard},
+  title = {Identifying speakers in children's stories for speech synthesis},
+  booktitle = {INTERSPEECH},
+  year = {2003},
+  owner = {hari},
+  timestamp = {2014.10.27}
+}
+
+@ARTICLE{chen2014integrated,
+  author = {Chen, Langzhou and Gales, Mark JF and Braunschweiler, Norbert and
+	Akamine, Masami and Knill, Kate},
+  title = {Integrated expression prediction and speech synthesis from text},
+  journal = {IEEE Journal of Selected Topics in Signal Processing},
+  year = {2014},
+  volume = {8},
+  pages = {323--335},
+  number = {2},
+  owner = {hari},
+  timestamp = {2015.07.31}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+

@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}
+\contentsline {subsection}{\numberline {1.2}Objectives}{2}
+\contentsline {section}{\numberline {2}Work Done}{2}
+\contentsline {subsection}{\numberline {2.1}Trajectory Preprocessing}{3}
+\contentsline {paragraph}{Segmentation:}{3}
+\contentsline {paragraph}{Normalization:}{3}
+\contentsline {subsection}{\numberline {2.2}Trajectory Similarity Analysis}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Curve Distance for Trajectories}{4}
+\contentsline {paragraph}{Weighted Curve Distance}{5}
+\contentsline {subsection}{\numberline {2.3}Trajectory Clustering}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}Finding optimal clusters}{5}
+\contentsline {section}{\numberline {3}Evaluation and Analysis}{7}
+\contentsline {subsection}{\numberline {3.1}Dataset}{7}
+\contentsline {subsection}{\numberline {3.2}Clustering Effectiveness}{7}
+\contentsline {subsection}{\numberline {3.3}Comparison with Dynamic Time Warping (DTW)}{8}
+\contentsline {subsection}{\numberline {3.4}Analysis of Proposed Origin-Destination(OD) Method}{10}
+\contentsline {section}{\numberline {4}Conclusion and Future Work}{11}

@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Literature Review}{4}{0}{2}
+\beamer@sectionintoc {3}{Scope of the work}{8}{0}{3}
+\beamer@sectionintoc {4}{Work Done}{10}{0}{4}
+\beamer@sectionintoc {5}{Summary and Conclusions}{33}{0}{5}
+\beamer@sectionintoc {6}{Future Work}{34}{0}{6}

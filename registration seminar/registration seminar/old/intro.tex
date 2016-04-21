@@ -1,0 +1,62 @@
+\section{Introduction}
+%% 1. Location data is being increasingly collected and is useful. (has the potential to unlock several novel usecases such as city transportation planning and user interest analysis)
+Advances in GPS-based applications and ubiquitous connectivity has enabled collection of vast amounts of location data describing the movement of humans and animals. Currently, location traces of millions of people are being collected by various applications~\cite{waze}. In addition, location traces of a vast majority of the population are inherently collected by cellular network operators in the form of Call Detail Records, which continuously log the base-station to which the user is connected~\cite{tdrs}. This large-scale location traces of people enables understanding the movement pattern of objects, and opens a plethora of location-enabled applications such as location prediction, mobility-intent identification and anomaly detection. 
+
+%% 2. Human mobility data opens new avenues
+Large scale human mobility data enables solving interesting problems and generating new revenue streams for the enterprises. For example, the transportation departments now spend millions of dollars once in a few years in \textit{travel pattern surveys}, which only samples a sub-5\% of population, to plan the bus and train networks~\cite{Richardson1995}. Such expensive and exhaustive methods can be easily replaced by analysis of location traces, which can provide real-time and fine-granular data from a significantly larger sample of people. Similarly, location data can be analyze user interactions in physical space. Insights from location data enable determining user interests, demographics and who they hangout with based on where, how and when people go to different locations such as stadiums and malls. Hence, location data -- similar to social networking data --enables enterprises to create new revenue streams.
+
+%%Such surveys are inherently limited by the number of people surveyed, and in the type of responses elicited by the users; most often they collect the home/office locations and time-of-travel from around 1\% of the population, and prepare an Origin-Destination (OD) matrix that shows how many users might move from one part of the city to another. Such data is used to plan bus and trains in the city. Contrast planning the city transportation with location data. Information of precise user movements every day from Telcos or other popular location tracking applications like Waze~\cite{waze}, will provide them the actual OD matrix based on real-movement data, and not from the subjective responses from the users. In addition, the fine-grained data with advanced analytics will also help them understand who, when, why, where and how the users move at a fine-granular level. This helps the smarter city transportation departments to precisely plan multi-modal transportation systems. 
+%%Location data also opens opportunities to create additional revenue streams. Popular social networking enterprises now mainly generate revenue by utilizing user interactions in the virtual space (using social-network posts and search queries) for personalized advertizing -- without breaching user privacy. Similarly, location data has the potential to utilize how users move in the physical world and monetize the data by providing them smart hyper-targetted advertizements. For example, a user who often visits a coffee-shops is the ideal candidate to send promotions to a new coffee shop that has opened on the commute path between the user's home and office. Many such queries can be enabled on location data to solve interesting usecases. 
+
+%% 3. The time-series of location traces can be used to infer home,work, etc. Such summaries are useful for many applications on infering where the user hangs out. People want to construct summaries like hangouts etc. How do we do this for mobility pattern detection?
+A primary challenge in enabling new applications is inferring insightful movement patterns from the raw location traces. Existing studies have focused on identifying hangouts of an individual, such as home/work and other frequently visited places~\cite{Do2014}. Hangouts provide a spatio-temporal signature of the person in terms of where the person hangs out. However, such algorithms does not indicate the mobility pattern of the user. 
+
+%% Why mobility summary
+%% In this industry, regular traj query is most ofnte used. Pepple go back to raw trajs to compute -- evertime. We need better representation.
+Mobility Summary of an individual succinctly describes frequent paths taken by the user. Mobility Summary is the natural abstraction for many higher level applications that utilize ``frequent-mobility based queries'', where an application can query frequent movement patterns -- instead of all the trajectories of the user -- to infer some insight. Examples of frequent-mobility based queries include: (1) users who frequently pass through a given place such as a coffee shop, (2) Next-path prediction problem where user's future path is predicted based on current path and a history of user trajectories, and  (3) Anomalous Trajectory Detection where outlier trajectories of a user need to filtered. Such queries are efficiently solved by a one-time computation of mobility summary. Applications can then query the summary, rather than each application querying thousands of user trajectories, to provide insights. Hence, mobility summary enables efficient and fast-lookup for many movement-based queries that rely on computing frequent trajectories of an individual. 
+
+%For example, summary mobility enables identifying users who regularly pass through a coffee shop or digital billboards, so that advertisements can be targeted to the most appropriate and regular users. Mobility summary provides a novel and efficient way to solve well-known trajectory queries. Solutions to next-location prediction and anomalous movement detection are reduced to a simple lookup operations on few representative summary trajectories -- rather than repeatedly sifting through thousands of trajectories of a user using a complicated model. 
+
+%% What is done till now
+Modeling movement summaries of individuals from the location traces has not been studied in the existing literature. Some studies have examined trajectory clustering by extending point or sub-trajectory based clustering mechanisms~\cite{Li2010,Lee2007}. Such schemes primarily operate on points (or sub-parts) of trajectories, and finally aggregate the point clusters to compute a trajectory cluster. However, as we show in the paper, such schemes are poor in summarizing individual's trajectories for two main reasons. First, aggregating on cluster of points or sub-trajectories does not consider the similarity between entire trajectories; this often aggregates dissimilar trajectories or fails to identify similar trips within a cluster unless a careful parameter tuning is performed for each individual user. Second, these schemes do not scale to large sets of location traces since they incur high computational time; usually they repeatedly apply clustering to sub-parts on the all the trajectories and later aggregate the results. 
+
+% Our contribution
+In this paper, we design an end-to-end system ``MoSum'' for constructing mobility summary for individual users. MoSum takes in a time-series of user's location traces and outputs a set of weighted representative summary trajectories of the user, which describe the user mobility pattern. 
+%We score each summary trajectory proportional to how often the user has traveled along that path. The output of MoSum is a compact representation of user's mobility pattern. 
+Our paper has the following contributions:
+\begin{itemize}
+\item We propose abstraction of Mobility Summary to capture important representative paths of an individual; this enables in building spatio-temporal mobility signatures of people and applications that use frequent-mobility based queries.
+\item We devise an efficient metric, called ``Weighted LP-Norm'', to compute the distance between a pair of user trajectories. We utilize this metric as a distance metric for clustering trajectories. We show that existing metrics such as Dynamic Time Warping~\cite{Yi1998} are insufficient as they are non-metrics and computationally expensive.
+\item We devise algorithms to determine optimal clustering of user trajectories, and determine representative summary trajectories from a set of trajectories.
+\item We implement Next-Path Prediction algorithm, which uses frequent-mobility query, to demonstrate that one-time computation and storage of user's mobility summary significantly reduces the complexity of applications. These applications can use fast lookup on mobility summary to derive insights instead of querying all user trajectories. 
+\end{itemize}
+
+The rest of the paper \ldots
+\begin{comment}
+\paragraph{Availability of GPS/location data in large quantities. }
+\par With the steep increase in the number of smart phones, and other GPS enabled devices, there is a lot of location data being collected. Most of the commonly used commuting applications on the phone,among various other apps, constantly log the user's location traces. This huge amount of data can be used for various kinds of analysis and has thus, given rise to a lot of research in this field. The GPS trajectories of a user can be mined for various patterns, which can be used in profiling the user , summarizing his movement pattern, etc. The analysis can further be extended over all users, to infer many other important questions such as the most trodden path, demographics of a place, etc. 
+
+\paragraph{Trajectory Definition}
+
+\par A trajectory can be defined as a series of points in the spatial domain , spread over a certain time period. It can be seen as an ordered collection of three tuples, latitude, longitude and the timestamp. 
+
+\paragraph{Movement summaries , and the uses}
+\par One prominent information that can be mined from these location data is the movement summaries of each user. Movement summaries can be defined as the collection of trips that are specific to the user, and the trips that he commonly frequents. Identifying these movement summaries can be useful in various scenarios which include Next location prediction, anomaly detection, and profiling the customer and storing it. Currently, there is no existing algorithm or system which detects human movement summaries. There has been a lot of research in the area of assigning similarity to trajectories , and clustering them, but no work aims at detecting human mobility pattern in particular. Our work aims at bringing in human mobility centric similarity measures in order to extract meaningful summaries. Existing techniques don't account for what counts as a meaningful trip, and thus there is no accurate model for human mobility. 
+
+\paragraph{Storing the summaries }
+\par In addition to finding movement summaries, we also propose a method to store the trajectories, and movement summaries at various levels of granularity. This layered view of the trajectories would help in querying the system for a snapshot of the user's mobility at any zoom level. It would also help in looking at some summaries at a particular abstraction level and diving deeper into other summaries. 
+
+\paragraph{Contributions}
+In this paper, we propose an end to end system of summarizing human mobility trips. We propose algorithms for 
+\begin{itemize}
+\item Trip Preprocessing
+\item A Similarity measure for the trajectories
+\item Trajectory clustering, and a heuristic to detect meaningful summaries
+\item Finding the representative trajectory for each summary
+\end{itemize}
+We also test out methodology on various datasets and compare it with other state of the art methods for trajectory clustering. Different similarity measures are also used and we discuss why our similarity measure works better for human mobility. 
+
+\paragraph{Paper organization}
+The paper has been divided as follows ...
+\end{comment}
+

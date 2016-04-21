@@ -1,0 +1,247 @@
+\begin{thebibliography}{10}
+
+\bibitem{waze}
+Waze.
+\newblock \url{https://www.waze.com/}.
+
+\bibitem{tdrs}
+{3GPP TS 25.413}.
+\newblock {UTRAN Iu interface RANAP signalling}.
+\newblock \url{http://www.3gpp.org/DynaReport/25413.htm}.
+
+\bibitem{lp1}
+R.~Agrawal, C.~Faloutsos, and A.~Swami.
+\newblock E cient similarity search in sequence databases.
+\newblock 1994.
+
+\bibitem{dtw}
+D.~J. Berndt and J.~Clifford.
+\newblock Finding patterns in time series, advances in knowledge discovery and
+  data mining, aaai, 1996.
+
+\bibitem{flock2}
+K.~Buchin, M.~Buchin, J.~Gudmundsson, M.~L{\"o}ffler, and J.~Luo.
+\newblock Detecting commuting patterns by clustering subtrajectories.
+\newblock {\em International Journal of Computational Geometry \&
+  Applications}, 21(03):253--282, 2011.
+
+\bibitem{median1}
+K.~Buchin, M.~Buchin, M.~Van~Kreveld, M.~L{\"o}ffler, R.~I. Silveira, C.~Wenk,
+  and L.~Wiratma.
+\newblock Median trajectories.
+\newblock {\em Algorithmica}, 66(3):595--614, 2013.
+
+\bibitem{Chen2004}
+L.~Chen and R.~Ng.
+\newblock On the marriage of lp-norms and edit distance.
+\newblock In {\em Proceedings of the Thirtieth International Conference on Very
+  Large Data Bases - Volume 30}, VLDB '04, pages 792--803. VLDB Endowment,
+  2004.
+
+\bibitem{Chen2005}
+L.~Chen, M.~T. \"{O}zsu, and V.~Oria.
+\newblock Robust and fast similarity search for moving object trajectories.
+\newblock In {\em Proceedings of the 2005 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '05, pages 491--502, New York, NY, USA, 2005.
+  ACM.
+
+\bibitem{Do2014}
+T.~M.~T. Do and D.~Gatica-Perez.
+\newblock The places of our lives: Visiting patterns and automatic labeling
+  from longitudinal smartphone data.
+\newblock {\em Mobile Computing, IEEE Transactions on}, 13(3):638--648, March
+  2014.
+
+\bibitem{mapmatch3}
+M.~K. El~Mahrsi and F.~Rossi.
+\newblock Graph-based approaches to clustering network-constrained trajectory
+  data.
+\newblock In {\em NFMCP}, pages 124--137. Springer, 2012.
+
+\bibitem{lp4}
+C.~Faloutsos and K.-I. Lin.
+\newblock {\em FastMap: A fast algorithm for indexing, data-mining and
+  visualization of traditional and multimedia datasets}, volume~24.
+\newblock ACM, 1995.
+
+\bibitem{gaffney1999trajectory}
+S.~Gaffney and P.~Smyth.
+\newblock Trajectory clustering with mixtures of regression models.
+\newblock In {\em Proceedings of the fifth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 63--72. ACM, 1999.
+
+\bibitem{lp3}
+A.~Gionis, P.~Indyk, R.~Motwani, et~al.
+\newblock Similarity search in high dimensions via hashing.
+\newblock In {\em VLDB}, volume~99, pages 518--529, 1999.
+
+\bibitem{flock1}
+J.~Gudmundsson, M.~van Kreveld, and B.~Speckmann.
+\newblock Efficient detection of patterns in 2d trajectories of moving points.
+\newblock {\em Geoinformatica}, 11(2):195--215, 2007.
+
+\bibitem{mapmatch1}
+B.~Han, L.~Liu, and E.~Omiecinski.
+\newblock Neat: Road network aware trajectory clustering.
+\newblock In {\em Distributed Computing Systems (ICDCS), 2012 IEEE 32nd
+  International Conference on}, pages 142--151. IEEE, 2012.
+
+\bibitem{flock3}
+H.~Jeung, M.~L. Yiu, X.~Zhou, C.~S. Jensen, and H.~T. Shen.
+\newblock Discovery of convoys in trajectory databases.
+\newblock {\em Proceedings of the VLDB Endowment}, 1(1):1068--1080, 2008.
+
+\bibitem{lp5}
+T.~Kahveci and A.~Singh.
+\newblock Variable length queries for time series data.
+\newblock In {\em Data Engineering, 2001. Proceedings. 17th International
+  Conference on}, pages 273--282. IEEE, 2001.
+
+\bibitem{Kurtek2012}
+S.~Kurtek, A.~Srivastava, E.~Klassen, and Z.~Ding.
+\newblock Statistical modeling of curves using shapes and related features.
+\newblock {\em Journal of the American Statistical Association},
+  107(499):1152--1165, 2012.
+
+\bibitem{Lee2007}
+J.-G. Lee, J.~Han, and K.-Y. Whang.
+\newblock Trajectory clustering: A partition-and-group framework.
+\newblock In {\em Proceedings of the 2007 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '07, pages 593--604, New York, NY, USA, 2007.
+  ACM.
+
+\bibitem{trajcut1}
+Q.~Li, Y.~Zheng, X.~Xie, Y.~Chen, W.~Liu, and W.-Y. Ma.
+\newblock Mining user similarity based on location history.
+\newblock In {\em Proceedings of the 16th ACM SIGSPATIAL international
+  conference on Advances in geographic information systems}, page~34. ACM,
+  2008.
+
+\bibitem{Li2010}
+Z.~Li, B.~Ding, J.~Han, and R.~Kays.
+\newblock Swarm: Mining relaxed temporal moving object clusters.
+\newblock {\em Proc. VLDB Endow.}, 3(1-2):723--734, Sept. 2010.
+
+\bibitem{mapmatch2}
+M.~K.~E. Mahrsi and F.~Rossi.
+\newblock Modularity-based clustering for network-constrained trajectories.
+\newblock {\em arXiv preprint arXiv:1205.2172}, 2012.
+
+\bibitem{nanni2006time}
+M.~Nanni and D.~Pedreschi.
+\newblock Time-focused clustering of trajectories of moving objects.
+\newblock {\em Journal of Intelligent Information Systems}, 27(3):267--289,
+  2006.
+
+\bibitem{Richardson1995}
+A.~J. Richardson, E.~S. Ampt, and A.~H. Meyburg.
+\newblock {\em Survey Methods for Transport Planning}.
+\newblock Eucalyptus Press, 1995.
+
+\bibitem{simcomp2}
+S.~Sankararaman, P.~K. Agarwal, T.~M{\o}lhave, and A.~P. Boedihardjo.
+\newblock Computing similarity between a pair of trajectories.
+\newblock {\em arXiv preprint arXiv:1303.1585}, 2013.
+
+\bibitem{su2015making}
+H.~Su, K.~Zheng, K.~Zeng, J.~Huang, S.~Sadiq, N.~J. Yuan, and X.~Zhou.
+\newblock Making sense of trajectory data: A partition-and-summarization
+  approach.
+\newblock In {\em Data Engineering (ICDE), 2015 IEEE 31st International
+  Conference on}, pages 963--974. IEEE, 2015.
+
+\bibitem{Vlachos2002}
+M.~Vlachos, G.~Kollios, and D.~Gunopulos.
+\newblock Discovering similar multidimensional trajectories.
+\newblock In {\em Data Engineering, 2002. Proceedings. 18th International
+  Conference on}, pages 673--684, 2002.
+
+\bibitem{simcomp}
+H.~Wang, H.~Su, K.~Zheng, S.~Sadiq, and X.~Zhou.
+\newblock An effectiveness study on trajectory similarity measures.
+\newblock In {\em Proceedings of the Twenty-Fourth Australasian Database
+  Conference-Volume 137}, pages 13--22. Australian Computer Society, Inc.,
+  2013.
+
+\bibitem{lp2}
+B.-K. Yi and C.~Faloutsos.
+\newblock Fast time sequence indexing for arbitrary lp norms.
+\newblock VLDB, 2000.
+
+\bibitem{Yi1998}
+B.-K. Yi, H.~Jagadish, and C.~Faloutsos.
+\newblock Efficient retrieval of similar time sequences under time warping.
+\newblock In {\em Data Engineering, 1998. Proceedings., 14th International
+  Conference on}, pages 201--208, Feb 1998.
+
+\bibitem{tdrive1}
+J.~Yuan, Y.~Zheng, X.~Xie, and G.~Sun.
+\newblock Driving with knowledge from the physical world.
+\newblock In {\em Proceedings of the 17th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 316--324. ACM, 2011.
+
+\bibitem{Yuan2013}
+J.~Yuan, Y.~Zheng, X.~Xie, and G.~Sun.
+\newblock T-drive: Enhancing driving directions with taxi drivers'
+  intelligence.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  25(1):220--232, Jan 2013.
+
+\bibitem{tdrive2}
+J.~Yuan, Y.~Zheng, C.~Zhang, W.~Xie, X.~Xie, G.~Sun, and Y.~Huang.
+\newblock T-drive: driving directions based on taxi trajectories.
+\newblock In {\em Proceedings of the 18th SIGSPATIAL International conference
+  on advances in geographic information systems}, pages 99--108. ACM, 2010.
+
+\bibitem{Zhang}
+P.~Zhang, M.~Deng, and N.~Van~de Weghe.
+\newblock Clustering spatio-temporal trajectories based on kernel density
+  estimation.
+\newblock In {\em Computational Science and Its Applications--ICCSA 2014},
+  pages 298--311. Springer, 2014.
+
+\bibitem{trajcut3}
+Y.~Zheng.
+\newblock Trajectory data mining: an overview.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  6(3):29, 2015.
+
+\bibitem{Zheng2009}
+Y.~Zheng, Y.~Chen, X.~Xie, and W.-Y. Ma.
+\newblock Geolife2.0: A location-based social networking service.
+\newblock In {\em Mobile Data Management: Systems, Services and Middleware,
+  2009. MDM '09. Tenth International Conference on}, pages 357--358, May 2009.
+
+\bibitem{Zheng2008}
+Y.~Zheng, Q.~Li, Y.~Chen, X.~Xie, and W.-Y. Ma.
+\newblock Understanding mobility based on gps data.
+\newblock In {\em Proceedings of the 10th International Conference on
+  Ubiquitous Computing}, UbiComp '08, pages 312--321, New York, NY, USA, 2008.
+  ACM.
+
+\bibitem{geolife2}
+Y.~Zheng, Q.~Li, Y.~Chen, X.~Xie, and W.-Y. Ma.
+\newblock Understanding mobility based on gps data.
+\newblock In {\em Proceedings of the 10th international conference on
+  Ubiquitous computing}, pages 312--321. ACM, 2008.
+
+\bibitem{trajcut2}
+Y.~Zheng and X.~Xie.
+\newblock Learning travel recommendations from user-generated gps traces.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  2(1):2, 2011.
+
+\bibitem{geolife3}
+Y.~Zheng, X.~Xie, and W.-Y. Ma.
+\newblock Geolife: A collaborative social networking service among user,
+  location and trajectory.
+\newblock {\em IEEE Data Eng. Bull.}, 33(2):32--39, 2010.
+
+\bibitem{geolife1}
+Y.~Zheng, L.~Zhang, X.~Xie, and W.-Y. Ma.
+\newblock Mining interesting locations and travel sequences from gps
+  trajectories.
+\newblock In {\em Proceedings of the 18th international conference on World
+  wide web}, pages 791--800. ACM, 2009.
+
+\end{thebibliography}

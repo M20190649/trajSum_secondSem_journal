@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}
+\contentsline {subsection}{\numberline {1.2}Objectives}{2}
+\contentsline {paragraph}{Trajectory Preprocessing}{2}
+\contentsline {paragraph}{Trajectory Similarity}{2}
+\contentsline {paragraph}{Trajectory Clustering}{2}
+\contentsline {paragraph}{Trajectory Summarization}{2}
+\contentsline {paragraph}{Applications of Mobility Summary}{3}
+\contentsline {section}{\numberline {2}Related Work}{3}
+\contentsline {subsection}{\numberline {2.1}Trajectory Similarity}{3}
+\contentsline {subsection}{\numberline {2.2}Trajectory Clustering}{4}
+\contentsline {subsection}{\numberline {2.3}Subtrajectory Clustering}{4}
+\contentsline {subsection}{\numberline {2.4}Trajectory Preprocessing and Representative Trajectory}{4}
+\contentsline {section}{\numberline {3}Formulation and Overall flow}{4}
+\contentsline {paragraph}{Input}{4}
+\contentsline {paragraph}{Preprocessing}{4}
+\contentsline {paragraph}{Trajectory Similarity}{5}
+\contentsline {paragraph}{Trajectory Clustering}{5}
+\contentsline {paragraph}{Representative Trajectory}{5}
+\contentsline {paragraph}{Applications}{5}
+\contentsline {section}{\numberline {4}Work Done}{5}
+\contentsline {subsection}{\numberline {4.1}Trajectory Preprocesing}{5}
+\contentsline {paragraph}{Segmentation}{5}
+\contentsline {paragraph}{Normalization}{6}
+\contentsline {subsection}{\numberline {4.2}Trajectory Similarity}{6}
+\contentsline {subsubsection}{\numberline {4.2.1}Curve Distance for Trajectories}{7}
+\contentsline {paragraph}{Weighted Curve Distance}{7}
+\contentsline {section}{\numberline {5}Future Work}{8}

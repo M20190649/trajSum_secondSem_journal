@@ -1,0 +1,42 @@
+\beamer@slide {Introduction}{3}
+\beamer@slide {Table: Text Classification}{4}
+\beamer@slide {Table: Story-telling Applications}{5}
+\beamer@slide {Table: Literature Indian Languages}{6}
+\beamer@slide {Table: Literature Indian Languages}{7}
+\beamer@slide {system}{8}
+\beamer@slide {system}{12}
+\beamer@slide {corpus}{13}
+\beamer@slide {POS Definition}{16}
+\beamer@slide {Evaluation Measures}{18}
+\beamer@slide {Story Classification using Keyword based Features}{20}
+\beamer@slide {Table: Feature Reduction Hindi}{21}
+\beamer@slide {Table: Feature Reduction Telugu}{21}
+\beamer@slide {Keyword Result Analysis}{22}
+\beamer@slide {POS Distribution}{24}
+\beamer@slide {POS Tag Sets}{25}
+\beamer@slide {Table: POS Sets}{25}
+\beamer@slide {Table: POS}{26}
+\beamer@slide {Table: Story Classifiation Performance After Modification}{28}
+\beamer@slide {Figure: Story Accuracy set 2}{29}
+\beamer@slide {Table: Mcnemar result of significance test}{30}
+\beamer@slide {Table: Cross classifier significance test}{31}
+\beamer@slide {Concatenation of keyword and POS}{32}
+\beamer@slide {Publications}{35}
+\beamer@slide {McNemar's significance test}{43}
+\beamer@slide {Sparse Term Removal}{44}
+\beamer@slide {DTM}{44}
+\beamer@slide {DTM}{45}
+\beamer@slide {DTM}{46}
+\beamer@slide {DTM}{47}
+\beamer@slide {DTM}{48}
+\beamer@slide {DTM}{49}
+\beamer@slide {LSA}{50}
+\beamer@slide {DTM_LSA}{51}
+\beamer@slide {U_LSA}{51}
+\beamer@slide {Singular_LSA}{52}
+\beamer@slide {VT_LSA}{52}
+\beamer@slide {Sigma_2_LSA}{53}
+\beamer@slide {C_2_LSA}{53}
+\beamer@slide {Dimension_Reduction_LSA}{54}
+\beamer@slide {LSA Analysis}{55}
+\beamer@slide {Confusion Matrix}{56}

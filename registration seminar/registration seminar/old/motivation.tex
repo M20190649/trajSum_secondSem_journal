@@ -1,0 +1,44 @@
+\section{Motivation}
+
+\subsection{Trajectory Similarity}
+
+\paragraph{Motivation  behind giving weight age to OD }
+
+\par One of the contributions of this paper, is the similarity metric that we use to define the similarity between two trajectories. The intuition behind the similarity measure is that whenever humans move, there is an intent behind the trip. Thus, the origin and destination have an important role to play. If someone is making a trip, the destination has to be of some importance to the person, and the origin should also mean something to him. Following this intuition, we have given more weightage to the points closer to the origin and destination. Another reason behind doing this is that we want to overlook tiny diversions in the route taken from a set pair of origin-destination. For example, for a user, if the trips he make from the office to his home are considered as one summary, and on some day if he takes a tiny diversion in the form of a by-lane rather than the main road, it should still be considered  in the same trip summary. Thus, the points closer to the origin and destination are given more importance than those in the middle. 
+
+\paragraph{ Problems with existing metrics}
+
+\par There are various existing metrics for computing similarity between trajectories like  Dynamic Time Warping(DTW), Edit Distance on Real Sequences (EDR), Longest Common Sub-sequence(LCSS), etc.  But the major problem with most of them is that they are not mathematical metrics and thus, do not follow triangle inequality. This might leads to inconsistent results in various situations, and mainly affect the clustering results. For example 
+\begin{itemize}
+  \item Toy scenario to show DTW/LCSS gives wrong measurement (triangular inequality in a 3 traj clustering)
+\end{itemize}
+\paragraph{Problems with defining similarity when both spatial and temporal domain come into the picture}
+
+\par Moving into the the domain of defining a spatio-temporal similarity between two trajectories brings in various questions of ambiguity. Are simiarlities between two trajectories which go on the same path 10 mins part same as that of two trajectories which go 1 km apart at the same time? Hence, a hierarchical approach for solving this problem is suggested so as to decouple the spatial and temporal similarities. We first come up with the trip summaries by looking only at the spatial values, and then in the next stage , bring in the temporal (time of the day aspect) aspect to gain further insights.
+
+\paragraph{Denoising over using similarity measures resilient to noise}
+\par For human trip movement, denoising can be done prior to trajectory processing, instead of making the similarity measures resilient to noise. Such similarity measures are computationally expensive, and do not yield accurate results in all cases.
+
+\subsection{Trajectory Clustering}
+
+Why hierarchical: We really dont know the number of clusters. We need to iterate over each k and then find out the optimal k. The time complexity of running k-means for 100's of ks and then finding out the optimal k is much more expensive than doing 1-shot hierarchical clustering and finding a good point to cut. \rednote{Show the time graph for running k-means vs hierarchical}\rednote{Show complexity}
+
+\subsection{Trajectory Summarization}
+
+\par { Use cases for trajectory summarization}
+
+Computing the trajectory or trip summaries of a person can answer various queries about the person. Some of them include 
+	  \begin{itemize}
+			\item Customer Profile: Give summary of a person's trips in a region -- both in space or time
+			\item Next-Location Profile: What are the most probable trajectories to find a person between time x to time y (optional: given that the person is at location L at time t)
+			\item Alerts: Alert when a customer is moving in an anomalous way
+		\end{itemize}
+Trip summaries can also be used for
+		\begin{itemize}
+			\item Insurance Usecase: Give summary of a person's trips that have good or bad speed profiles -- immaterial of the space or time
+		\end{itemize}
+
+
+\subsection{ Storing the summaries of a person}
+
+\par In this paper, we also propose a method of storing the trip summaries of  a person in a hierarchical fashion. By doing this, we can get an idea about how the person moves at various levels of granularity. We can also set the number of clusters to a particular value, and query his movement pattern for the top k prominent trips. This kind of storage also supports zooming into a particular summary and breaking it down further for other analytics.

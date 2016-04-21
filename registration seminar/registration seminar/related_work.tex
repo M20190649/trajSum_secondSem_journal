@@ -1,0 +1,18 @@
+\section{Related Work}
+Trajectory similarity and trajectory clustering have been studied widely over the past few years due to the growing availability of data. There have been various papers proposing new similarity measures and many others which propose an end to end framework for clustering trajectories. The problem of finding individual movement summary has not yet been addressed to the best of our knowledge. 
+\paragraph{Trajectory Preprocessing:}
+Li \emph{at al.} and Zheng \emph{et al.} have a proposed a heuristic to cut meaningful trajectories from a stream of $<latitude, longitude, timestamp>$ three tuples in \cite{trajcut1,trajcut2}. In \cite{trajcut3}, Zheng gives a complete overview on trajectory data mining which also contains a section on trajectory data preprocessing.  
+
+\paragraph{Trajectory Similarity:}
+The most commonly used similarity measure for any kind of time series similarity is the LP- norm similarity. In \cite{lp1}, the authors talk about using Euclidean distance to measure similarity, coupled with Discrete fourier transform to reduce the dimensionality and R-tree was used for indexing. Various Fast and efficient methods for indexing and retrieval of similar series , when the similarity is defined by the Euclidean similarity are proposed in \cite{lp1},\cite{lp2}. 
+The main problem with Euclidean distane is its inability to handle noise and local time shifting. In order to overcome this, exploration in other techniques began. Berndt \emph{et al.} \cite{dtw} introduced Dynamic Time Warping which allowed  a time series to be stretched so as to match the query series. In variations to DTW, Vlachos \emph{et al.} \cite{Vlachos2002} applied Longest Common Subsequence(LCSS) measure, and Chen \emph{et al.}\cite{Chen2005} applied  Edit Distances on Real Sequences(EDR). But all these measures, i.e., DTW, LCSS , and EDR are not metrics and don not follow triangle inequality. As an improvement, Chen \emph{et al.}\cite{Chen2005} introduced Edit Distance with Real Penalty (ERP) which handled local time shifting and is a metric. In \cite{simcomp}, Wang \emph{et al.} compare six widely used similarity measures including measures such as Euclidean distance, DTW, ERP, EDR and LCSS and their performances as trajectory similarity measures. They use a taxi dataset to evaluate and compare the results. 
+
+\paragraph{Trajectory Clustering:}
+Gaffney \emph{et al.}\cite{gaffney1999trajectory},  talk about trajectory clustering using the Expectation Maximization algorithm. Nanni \emph{et al.} \cite{nanni2006time} came up with an adaptation of a density-based clustering algorithm for trajectories.Zhang \emph{at al.} came up with a kernel density estimation based approach for the clustering of spatio-temporal trajectories in \cite{Zhang}.In \cite{su2015making}, the authors propose a system to generate text summaries of the trips made by people using a partition and summarization approach. \cite{mapmatch1},\cite{mapmatch2} talk about trajectory clustering after snapping the trajectories on some base map. Map matching constraints the trajectories to a specific network, and various other avenues open up in terms of defining similarity.
+
+\paragraph{Sub-trajectory Clustering:}
+Li \emph{et al.}\cite{Li2010} talk about moving clusters and detecting closed swarms for trajectories. Moving clusters in trajectory clustering is talked about in \cite{flock1},\cite{flock2} as well. Lee \emph{et al.} \cite{Lee2007} propose a partition and grouping framework for clustering trajectories.
+
+\paragraph{Representative Trajectory:}
+Buchin \emph{et al.}\cite{median1} present various ways to find the representative or median trajectories for a group or cluster of trajectories.
+
