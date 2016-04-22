@@ -1,8 +1,24 @@
 \section{Trajectory Preprocessing}
 \label{sec:preprocess}
 
-In the pre-processing stage, we perform three main tasks: User Grouping, De-noising and Trajectory Segmentation. User Grouping groups location samples of all users into a Hive table in Parquet format. Parquet format is adopted since it provides columnar compression which is useful for our data-sets. This step is necessary since the data is flowing into the system from multiple users at the same time, and our analytics input is the location traces (trajectories) of individual users.
+In the pre-processing stage, we perform three main tasks: De-noising and Trajectory Segmentation and Normalization. 
 
+\paragraph{De-noising}
 De-noising module filters the outlier GPS traces. We use existing outlier detection algorithms to prune the raw locations~\cite{Yuan2013,Zheng2009}. Such techniques estimate the speed between the consecutive sample points of a user, and prune the points if the speed is greater than a certain threshold (\unit{300}{kmph} in our case).
 
-Trajectory Segmentation identifies the meaningful trips of a user from raw location traces. It utilizes well-known stay-point estimation approaches~\cite{trajcut3}, and stores the \textit{User Trajectories} table. Each trip is stored as an ordered set of 3-tuples $\langle \operatorname{latitude},\operatorname{longitude}, \operatorname{time} \rangle$.
+
+\paragraph{Segmentation:}
+The first step in preprocessing is to identify meaningful trips of a user using trajectory segmentation approaches~\cite{Zheng2008}. The input to the module is a raw file of three tuples containing the latitude and longitude of the user sampled at various time instances. This does not necessarily consist of moving trajectories, it might also contain tuples where the user is static for a long time. The aim is to eliminate such tuples, and extract only the meaningful trajectories where the user is in motion or has made a trip. Here the distance, velocity and time-gap between consecutive set of sample points are computed to identify if the user is mobile. The well-known representation of trajectory to denote a meaningful trip is used; it is an ordered set of 3-tuples $\langle \operatorname{latitude},\operatorname{longitude},\operatorname{time} \rangle$.
+
+\paragraph{Normalization:}
+The next step is to normalize the user locations since small changes in latitude and longitude can result in large distances on earth. Each raw latitude $\rawlat_i$ in the sample is normalized into a normalized latitude $\lat_i$ in the range $[0,1]$ as:
+\begin{eqnarray}
+\lat_i =\frac{\rawlat_i - \minlat}{\maxlat - \minlat}
+\end{eqnarray}
+where $\minlat=\min(\rawlat_j, \forall j)$ is the minimum latitude observed, and $\maxlat=\max(\rawlat_j, \forall j)$. 
+
+Similarly, the raw longitude $\rawlon_i$ in converted to a normalized longitude $\lon_i$ in the range $[0,1]$ as:
+\begin{eqnarray}
+\lon_i =\frac{\rawlon_i - \minlon}{\maxlon - \minlon}
+\end{eqnarray}
+where $\minlon=\min(\rawlon_j, \forall j)$ is the minimum longitude observed, and $\maxlon=\max(\rawlon_j, \forall j)$. 

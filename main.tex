@@ -18,6 +18,17 @@
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\rawlat} {\operatorname{rlat}}
+\newcommand{\rawlon} {\operatorname{rlon}}
+\newcommand{\rawtime} {\operatorname{rtime}}
+\newcommand{\lat} {\operatorname{lat}}
+\newcommand{\lon} {\operatorname{lon}}
+\newcommand{\timev} {\operatorname{time}}
+\newcommand{\maxlat} {\max_{\lat}}
+\newcommand{\minlat} {\min_{\lat}}
+\newcommand{\maxlon} {\max_{\lon}}
+\newcommand{\minlon} {\min_{\lon}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 
 \newenvironment{definition}[1][Definition]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
@@ -31,15 +42,8 @@
 \newcommand{\UN}{L^\infty}
 \newcommand{\od}{\operatorname{OD}}
 %\newcommand{\roadSegDist}{\operatorname{roadSegDist}}
-\newcommand{\rawlat} {\operatorname{rlat}}
-\newcommand{\rawlon} {\operatorname{rlon}}
-\newcommand{\rawtime} {\operatorname{rtime}}
-\newcommand{\lat} {\operatorname{lat}}
-\newcommand{\lon} {\operatorname{lon}}
-\newcommand{\timev} {\operatorname{time}}
-\newcommand{\maxlat} {\max_{\lat}}
-\newcommand{\minlat} {\min_{\lat}}
-\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+
 \newcommand{\summClus} {S}
 \newcommand{\setSummClus} {\mathbf{S}}
 \newcommand{\meanTraj} {\bar{t}}
@@ -51,7 +55,7 @@
 \input{related_work}
 \input{system}
 \input{traj_preprocess}
-\input{formulation}
+\input{similarity}
 \input{clustering}
 \input{experimentation}
 
